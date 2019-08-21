@@ -22,11 +22,11 @@ export class AccountService {
   ];
 
   addAccount(name: string, stauts: string){
-
+    this.accounts.push({name: name, status: status});
   }
 
   udateStatus(id: number, status: string){
-    
+
   }
 
 
