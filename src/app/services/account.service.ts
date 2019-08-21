@@ -26,7 +26,7 @@ export class AccountService {
   }
 
   udateStatus(id: number, status: string){
-
+    this.accounts[id].status = status;
   }
 
 
